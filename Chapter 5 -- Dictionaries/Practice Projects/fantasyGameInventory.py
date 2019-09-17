@@ -13,7 +13,7 @@ displayInventory(stuff)
 
 print()
 
-# convert list to dictionary
+# add list items and count to inventory
 def addToInventory(inventory, addedItems):
     for k in addedItems:
         inventory.setdefault(k, 0)
