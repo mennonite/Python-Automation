@@ -3,11 +3,11 @@ while True:
     age = input()
     if age.isdecimal():
         break
-    print('Please enter a number for your age.')
+    print('\nPlease enter a number for your age.\n')
 
 while True:
     print('Select a new password (letters and numbers only):')
     password = input()
     if password.isalnum():
         break
-    print('Passwords can only have letters and numbers.')
+    print('\nPasswords can only have letters and numbers.\n')
