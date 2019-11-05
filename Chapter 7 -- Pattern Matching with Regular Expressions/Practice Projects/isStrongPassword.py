@@ -25,7 +25,7 @@ while True:
     if isStrongPassword(password):
         print('''
         You
-        Have broken the loop
+        You've broken the loop
         Yes
         YES
         You are free
