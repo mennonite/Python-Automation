@@ -1,5 +1,5 @@
 #! python3
-# madLibs.py - opens and reads a text file and lets the user input their own words
+# madlibs.py - opens and reads a text file and lets the user input their own words
 
 # open text file
 madlibFile = open('.\\Chapter 8 -- Reading and Writing Files\\Practice Projects\\test.txt')

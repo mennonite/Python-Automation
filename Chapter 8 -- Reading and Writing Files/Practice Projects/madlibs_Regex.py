@@ -1,5 +1,5 @@
 #! python3
-# madLibs.py - opens and reads a text file and lets the user input their own words
+# madlibs_Regex.py - opens and reads a text file and lets the user input their own words (solved using REGEX) 
 
 import re
 
