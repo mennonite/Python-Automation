@@ -1,7 +1,7 @@
 #! python3
 # madLibs.py - opens and reads a text file and lets the user input their own words
 
-import re
+# import re - not needed when looping through list
 
 # open text file
 madlibFile = open('.\\Chapter 8 -- Reading and Writing Files\\Practice Projects\\test.txt')
@@ -27,4 +27,7 @@ for i in range(len(content)):
 print(' '.join(content))
 
 
-# TODO: the resulting text is saved as a new file
+# the resulting text is saved as a new file
+madlibAnswers = open('.\\Chapter 8 -- Reading and Writing Files\\Practice Projects\\test-answer.txt', 'w')
+madlibAnswers.write(' '.join(content))
+madlibAnswers.close()
