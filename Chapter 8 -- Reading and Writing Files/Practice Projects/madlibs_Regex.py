@@ -16,7 +16,7 @@ matches = madlibsRegex.findall(content)
 
 # for each match, prompt the user to replace it
 for match in matches:
-    userWord = input('Gimme %s %s:\n' %('an' if match.startswith('A') else 'a', match.lower()))
+    userWord = input('Gimme %s %s:\n' % ('an' if match.startswith('A') else 'a', match.lower()))
     content = content.replace(match, userWord, 1)
 
 print(content)
