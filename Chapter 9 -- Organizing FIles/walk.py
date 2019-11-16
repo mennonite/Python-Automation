@@ -3,7 +3,7 @@
 
 import os
 
-for folderName, subfolders, filenames in os.walk('C:\\Users\\Martin\\Desktop\\nuts'):
+for folderName, subfolders, filenames in os.walk('..\\..\\nuts'):
     print('The current folder is ' + folderName)
 
     for subfolder in subfolders:
